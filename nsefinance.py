@@ -3,7 +3,7 @@ import urllib2
 
 class NSEfinance(object):
 
-	url = "http://127.0.0.1/api/stocks"
+	url = "http://nsefinance.com/api/stocks"
 
 	def __init__(self):
 		pass
@@ -43,8 +43,3 @@ class NSEfinance(object):
 			data = self._data(symbol,date)
 			finalResult = json.loads(data)
 			return finalResult
-
-
-if __name__ == "__main__":
-	stocks = NSEfinance()
-	print stocks.get_by_symbol()
