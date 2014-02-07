@@ -4,7 +4,7 @@ NSEFinance-Python
 Python Library for NSEFinance
 
 
-
+`
 from nsefinance import NSEFinance
 stocks = NSEFinance()
 
@@ -34,6 +34,7 @@ for i in range(len(result)):
 symbol = "OANDO"
 result = stocks.get_by_symbol(symbol,"2014-02-06")
 print result[symbol]['close']
+`
 
 
 Full documentation of for the api is available at http://nsefinance.com/docs
