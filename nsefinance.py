@@ -1,7 +1,7 @@
 import json
 import urllib2
 
-class NSEfinance(object):
+class NSEFinance(object):
 
 	url = "http://nsefinance.com/api/stocks"
 
